@@ -8,7 +8,8 @@ import json
 
 DHT_SENSOR_PIN = 4
 
-ADDR = '192.168.1.7'
+#Insert gateway IP address
+ADDR = ''
 PORT = 10000
 # Create a UDP socket
 client_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
